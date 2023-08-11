@@ -1,0 +1,67 @@
+ .contenaire div {
+        background-color: #ad3131;
+        padding: 20px;
+        font-size: 12px;
+        width: 30%;
+      }
+/* 
+      .button:enabled{
+        background-color: #142812;
+
+
+      } */
+      .mapouter {
+        position: relative;
+        text-align: right;
+        width: 600px;
+        height: 400px;
+      }
+      .gmap_canvas {
+        overflow: hidden;
+        background: none !important;
+        width: 600px;
+        height: 400px;
+      }
+      .gmap_iframe {
+        width: 600px !important;
+        height: 400px !important;
+      }
+      .contenaire div:first-child{
+        background-color:rgb(175, 212, 178);
+      }
+
+      a:target{
+        color:red;
+      }
+  
+  .input:focus{
+    border:none;
+    border: 5px solid red ;
+  }
+      .contenaire {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        background-color: blue;
+        padding: 30px;
+      }
+
+      @media only screen and (max-width: 768px){
+        
+        .contenaire{
+            flex-direction: column;
+        }
+  
+      .contenaire div {
+        width: auto;
+      }
+
+      }
+
+      @media only screen and (max-width:600px){
+
+           .contenaire div {
+        font-size: 20px;
+        color: white;
+      }
+      }
